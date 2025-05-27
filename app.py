@@ -3,8 +3,10 @@ import numpy as np
 import joblib
 
 # Load model and scaler
-model = joblib.load(r"D:\Internship\Retrein_final\model\extra_trees_malaria_modelre.pkl")
-scaler = joblib.load(r"D:\Internship\Retrein_final\model\scaler2.pkl")
+# model = joblib.load(r"D:\Internship\Retrein_final\model\extra_trees_malaria_modelre.pkl")
+# scaler = joblib.load(r"D:\Internship\Retrein_final\model\scaler2.pkl")
+model = joblib.load("model/extra_trees_malaria_modelre.pkl")
+scaler = joblib.load("model/scaler2.pkl")
 
 # App title and instructions
 st.title("🦟 Smart Malaria Predictor")
