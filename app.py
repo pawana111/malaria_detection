@@ -9,7 +9,7 @@ model = joblib.load("model/extra_trees_malaria_modelFolder.pkl")
 scaler = joblib.load("model/scalerfolder.pkl")
 
 # App title and instructions
-st.title("🦟 Smart Malaria Predictor...")
+st.title("🦟 Smart Malaria Predictor")
 st.markdown("Enter symptoms and weather details to predict the risk of Malaria.")
 
 # Input features
